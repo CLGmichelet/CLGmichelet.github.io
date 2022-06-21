@@ -1,0 +1,239 @@
+html{font-family: "Arial"; background-color: #C2D0E7;}
+
+@font-face {
+    font-display: swap;
+    font-family:"Montserrat";
+    src: url(D:/Site/Michelet/Fonts/Montserrat-Regular.otf)  format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-display: swap;
+    font-family:"Montserrat";
+    src: url(D:/Site/Michelet/FontsMontserrat-Bold.otf)  format("opentype");
+    font-weight: 700;
+}
+
+
+.actu{border-style: solid;}
+
+.cacaca {text-align: center ;text;font-size: 50px ; margin:auto;}
+
+.Banniere {
+	font-size: 60px;font-weight:bold;text-align: center;border-style: solid; z-index:10; 
+}
+p.Bannieresvt {font-size: 60px;font-weight:bold;text-align: center;border-style: solid; z-index:10; background-color: #50CB5E;}
+
+p.Bannierephy {font-size: 60px;font-weight:bold;text-align: center;border-style: solid; z-index:10; background-color: #9862CA;}
+
+
+
+
+ body{
+	background:D:\Site\Michelet\img\fondb.jpg;
+}
+
+h3 {font-size: 3rem ; }
+h2 {font-size: 4.6rem}
+h1 {font-size: 2.6rem ; }
+li{font-size: 2.2rem ; }
+a { color: black ; text-decoration: none;}
+.Headers {background: #7795C2 ; color: black;
+;}
+nav{min-height: 10vh; display:flex; align-items: center ; ;border-style: solid}
+nav ul{display: flex  ; flex: 1 1 40rem; justify-content: space-around;align-items: center; list-style: none;width: 50%; margin: auto;padding: 10px; 
+}
+#logo{
+    flex: 9 1 40rem;
+}
+
+/*Index*/
+
+div#content div{
+
+width: 18.7%; display: inline-block; vertical-align:top;border-style: solid;margin:auto;text-align: center;border-radius: 25px;  border: 2px solid;font-family: "Arial"; 
+}
+div#content div.Gauche{background-color:#0C48A2 ; padding: auto ; margin: 4px; border-radius: 10px;
+
+}
+div#content div.Millieu{background-color:#276BD1; padding: auto ; margin: 4px; border-radius: 10px
+
+}  
+
+div#content div.Droite{background-color:#0C48A2 ; padding: auto ; margin: 4px ;border-radius: 10px
+
+} 
+
+/*Actualité*/
+
+div#Actu div{
+width: 32.5%; display: inline-block; vertical-align:top;border-style: solid;margin:auto;text-align: center;border-radius: 25px;  border: 2px solid;font-family: "Arial"; 
+}
+div#Actu div.Gauche{background-color:#0C48A2 ; padding: auto ; margin: 4px; border-radius: 10px;
+
+}
+div#Actu div.Millieu{background-color:#276BD1; padding: auto ; margin: 4px; border-radius: 10px
+
+}  
+
+div#Actu div.Droite{background-color:#0C48A2 ; padding: auto ; margin: 4px ;border-radius: 10px
+
+} 
+/*PST*/
+div#Actu div{
+width: 32.5%; display: inline-block; vertical-align:top;border-style: solid;margin:auto;text-align: center;border-radius: 25px;  border: 2px solid;font-family: "Arial"; 
+}
+div#Actu div.Gauche{background-color:#0C48A2 ; padding: auto ; margin: 4px; border-radius: 10px;
+
+}
+div#Actu div.Millieu{background-color:#276BD1; padding: auto ; margin: 4px; border-radius: 10px
+
+}  
+
+div#Actu div.Droite{background-color:#0C48A2 ; padding: auto ; margin: 4px ;border-radius: 10px
+
+} 
+
+div#SVT div{
+width: 32.5%; display: inline-block; vertical-align:top;border-style: solid;margin:auto;text-align: center;border-radius: 25px;  border: 2px solid;font-family: "Arial"; 
+}
+div#SVT div.Gauche{background-color:#085811 ; padding: auto ; margin: 4px; border-radius: 10px;
+
+}
+div#SVT div.Millieu{background-color:#11B924; padding: auto ; margin: 4px; border-radius: 10px
+
+}  
+
+div#SVT div.Droite{background-color:#085811 ; padding: auto ; margin: 4px ;border-radius: 10px
+
+} 
+
+div#phy div{
+width: 32.5%; display: inline-block; vertical-align:top;border-style: solid;margin:auto;text-align: center;border-radius: 25px;  border: 2px solid;font-family: "Arial"; 
+}
+div#phy div.Gauche{background-color:#8720E7 ; padding: auto ; margin: 4px; border-radius: 10px;
+
+}
+div#phy div.Millieu{background-color:#43156E; padding: auto ; margin: 4px; border-radius: 10px
+
+}  
+
+div#phy div.Droite{background-color:#8720E7 ; padding: auto ; margin: 4px ;border-radius: 10px
+
+} 
+
+
+/*Collège*/
+img.college{border-style: solid}
+div#College div{
+display: inline-block; vertical-align:top;border-style: solid;margin:auto;text-align: Center;border-radius: 25px;  border: 2px solid;font-family: "Arial"; 
+}
+div#College div.Gauche{background-color:#0C48A2 ; padding: auto ; margin: 4px; border-radius: 10px;}
+
+.article{
+    margin-top: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-top:1px;    
+    background:#fbfbfb;
+    border-radius: 10px;
+    box-shadow: 4px 4px 30px rgba(94, 69, 69, 0.10);
+    padding-bottom: 40px; 
+border-style: solid;
+background-color: #276BD1;
+}
+
+.text{
+    text-align:left;
+    margin-left:3vw;
+    margin-right:3vw;
+    font-size: 1.5vw;
+}
+
+.article .img{
+    float:right;
+    margin: 3vw 2vw;
+    width: 25vw;
+}
+
+.article .img.gauche{
+    float:left;
+    margin: 3vw 2vw;
+    width: 25vw;
+}
+
+.article img{
+    width: 85vw;}
+
+.article2{
+    margin-top: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-top:1px;    
+    background:#fbfbfb;
+    border-radius: 10px;
+    box-shadow: 4px 4px 30px rgba(94, 69, 69, 0.10);
+    padding-bottom: 40px; 
+border-style: solid;
+background-color: #299B36;
+}
+
+.text{
+    text-align:left;
+    margin-left:3vw;
+    margin-right:3vw;
+    font-size: 1.5vw;
+}
+
+.article2 .img{
+    float:right;
+    margin: 3vw 2vw;
+    width: 25vw;
+}
+
+.article .img.gauche{
+    float:left;
+    margin: 3vw 2vw;
+    width: 25vw;
+}
+
+.article2 img{
+    width: 85vw;}
+
+
+.article3{
+    margin-top: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-top:1px;    
+    background:#fbfbfb;
+    border-radius: 10px;
+    box-shadow: 4px 4px 30px rgba(94, 69, 69, 0.10);
+    padding-bottom: 40px; 
+border-style: solid;
+background-color: #821CE1;
+}
+
+.text{
+    text-align:left;
+    margin-left:3vw;
+    margin-right:3vw;
+    font-size: 1.5vw;
+}
+
+.article3 .img{
+    float:right;
+    margin: 3vw 2vw;
+    width: 25vw;
+}
+
+.article3 .img.gauche{
+    float:left;
+    margin: 3vw 2vw;
+    width: 25vw;
+}
+
+.article3 img{
+    width: 85vw;}
+
+.caca {border-style: solid;}
